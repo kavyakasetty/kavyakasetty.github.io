@@ -156,6 +156,7 @@ function results(){
        
     
 
+        document.getElementById('five').innerHTML = '';
         document.getElementById('five').innerHTML += cov + '<br><br>';
         document.getElementById('five').innerHTML += ncov + '<br><br>';
         document.getElementById('five').innerHTML += masks + '<br><br>';
